@@ -2,7 +2,7 @@ set theHomePath to path to home folder
 
 # ---------- variables to modify ---------- #
 
-# a path to the folder, that contains installed version of in appropriate named subfolders (e.g. "173.4127.29", "172.4144.1459")
+# a path to the folder, that contains installed versions of in appropriate named subfolders (e.g. "173.4127.29", "172.4144.1459")
 set theAppToLaunchPath to theHomePath & "Library:Application Support:JetBrains:Toolbox:apps:PhpStorm:ch-0" as Unicode text
 
 # a relative path from root folder of concrete version to unix executable of application
