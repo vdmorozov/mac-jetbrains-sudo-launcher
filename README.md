@@ -1,5 +1,5 @@
 # mac-jetbrains-sudo-launcher
-Allows to automatically run as root the latest version of any of JetBrains instruments, installed via Toolbox on Mac OS.
+Allows to automatically run as root the latest version of any of JetBrains instruments, installed via Toolbox on Mac.
 
 # use-case
 Once I needed to start built-in PHP web server on port 80 on Mac with PhpStorm Run tool. I tryed it but got a `Permission denied` error. Then I found where PhpStorm executable is, launched it with `sudo` and web server started without any problem. It could be good enough workaround (btw, maybe there is more easy way, idk), but it makes no sense to run the exact version of application when using JetBrains Toolbox launcher and autoupdate. 
