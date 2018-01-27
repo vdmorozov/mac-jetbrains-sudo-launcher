@@ -9,9 +9,9 @@ So I wrote this sudo launcher.
 # usage
 By default this script is set up to launch PhpStorm from its default path (`~/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/{$versionNumber}/PhpStorm.app/Contents/MacOS/phpstorm`). You can modify this behavior by changing variables `theAppToLaunchPath` and `theRelativeExecPath`.
 
-`theAppToLaunchPath` should be set to a path to the folder, that contains installed version of the application in appropriate named subfolders (e.g. `173.4127.29`, `172.4144.1459`). By default it's `~/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/`.
+* `theAppToLaunchPath` should be set to a path to the folder, that contains installed version of the application in appropriate named subfolders (e.g. `173.4127.29`, `172.4144.1459`). By default it's `~/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/`.
 
-`theRelativeExecPath` should be set to a path from a concrete version folder to the executive file of application. By default it's `PhpStorm.app/Contents/MacOS/phpstorm`.
+* `theRelativeExecPath` should be set to a path from a concrete version folder to the executive file of application. By default it's `PhpStorm.app/Contents/MacOS/phpstorm`.
 
 The launcher script will:
 1) scan `theAppToLaunchPath` for subfolders;
