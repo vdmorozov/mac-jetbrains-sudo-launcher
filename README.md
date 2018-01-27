@@ -1,4 +1,4 @@
-# mac-jb-sudo
+# mac-jetbrains-sudo-launcher
 Allows to automatically run as root the latest version of any of JetBrains instruments, installed via Toolbox on Mac OS.
 
 # use-case
